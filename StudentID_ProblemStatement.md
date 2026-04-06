@@ -13,20 +13,20 @@ At EduTrack Systems, attendance tracking is performed manually, leading to proxy
 
 ## UI Screens (References)
 
-1. **Role Selection UI (main.dart)**
-   - Allows users to select either "Instructor" or "Student" path.
-   - Clean aesthetic with deep purple and teal accents for a modern look.
+1. **Role Selection UI**
+   - Splash screen directing the user to select either "Instructor" or "Student" path.
+   - Clean aesthetic with deep purple and teal accents, rendered beautifully via Stitch UI.
 
-2. **Instructor Dashboard (instructor_dashboard.dart)**
-   - "Generate Session QR" button creates a dynamic, time-bound QR payload.
-   - Displays the QR code directly on the screen for students to scan.
+2. **Instructor Dashboard**
+   - "Generate Session QR" creates a dynamic, time-bound glowing QR payload.
+   - Displays the QR code directly on the screen atop a glassmorphism card.
 
-3. **Student Dashboard (student_dashboard.dart)**
-   - "Mark Attendance" Floating Action Button.
-   - Checks GPS bounds before opening the camera.
+3. **Student Dashboard**
+   - "Scan Room QR" floating action button.
    - Offline tracking list with sync status indicators.
+   - Deep dark mode elements with vibrant high-contrast accents.
 
-4. **QR Scanner UI (qr_scanner_screen.dart)**
+4. **QR Scanner UI**
    - Real-time mobile scanner parsing JSON payloads.
 ---
 
